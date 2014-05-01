@@ -1,8 +1,4 @@
 <?php
-// Check if numbers are valid(1-9)
-foreach($_POST as $num)
-	if($num==NULL)
-		$num=0;
 foreach($_POST as $num)
 	if($num>9 or $num<0)
 		die("Are you kidding me? :|");
